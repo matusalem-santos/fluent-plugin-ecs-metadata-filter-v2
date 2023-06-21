@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fluent_ecs/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fluent-plugin-ecs-metadata-filter'
+  spec.name          = 'fluent-plugin-ecs-metadata-filter-v2'
   spec.version       = FluentECS::VERSION
-  spec.authors       = ['Michael Gruber']
-  spec.email         = ['mail@michaelgruber.me']
+  spec.authors       = ['Matusalem Andrdade']
+  spec.email         = ['matusalem879@gmail.com']
 
   spec.summary       = 'Filter plugin to add AWS ECS metadata to fluentd events'
-  spec.homepage      = 'https://github.com/michaelgruber/fluent-plugin-ecs-metadata-filter'
+  spec.homepage      = 'https://github.com/matusalem-santos/fluent-plugin-ecs-metadata-filter-v2'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
