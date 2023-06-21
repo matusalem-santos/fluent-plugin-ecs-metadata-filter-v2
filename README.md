@@ -1,4 +1,4 @@
-# fluent-plugin-ecs-metadata-filter
+# fluent-plugin-ecs-metadata-filter-v2
 
 [![Build Status](https://travis-ci.org/michaelgruber/fluent-plugin-ecs-metadata-filter.svg?branch=master)](https://travis-ci.org/michaelgruber/fluent-plugin-ecs-metadata-filter)
 [![Code Climate](https://codeclimate.com/github/michaelgruber/fluent-plugin-ecs-metadata-filter/badges/gpa.svg)](https://codeclimate.com/github/michaelgruber/fluent-plugin-ecs-metadata-filter)
@@ -16,7 +16,7 @@ Filter plugin to add AWS ECS metadata to fluentd events. Based on [fabric8io/flu
 ## Installation
 
 ```ruby
-gem install fluent-plugin-ecs-metadata-filter
+gem install fluent-plugin-ecs-metadata-filter-v2
 ```
 
 ## Configuration
